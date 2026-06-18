@@ -1,0 +1,103 @@
+
+   body {
+    background-color: #f4f8fb;
+    color: #333333;
+    font-family: Arial, sans-serif;
+
+}
+h1 {
+    color: #1565c0;
+}
+
+button {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
+
+input {
+    border: 1px solid #90caf9;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+h2 {
+    color: #2e7d32;
+}
+
+.description {
+    width: 60%;
+    font-size: 22px;
+    line-height: 1.8;
+    color: #222222;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    border-radius: 10px;
+}
+.container {
+    background-color: white;
+    width: 60%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}.predict-page label {
+    color: Black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.predict-page h1 {
+    color: Black;
+}
+
+.predict-page h2 {
+    color: Black;
+}
+.menu-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.menu-btn {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border-radius: 8px;
+
+    text-align: left;
+}
+
+.menu-content a {
+    display: block;
+    padding: 12px;
+    color: #333;
+    text-decoration: none;
+}
+
+.menu-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.menu-container:hover .menu-content {
+    display: block;
+}
